@@ -24,7 +24,7 @@ angular
       })
       .state('story', {
         url: "/story",
-        templateUrl: "./states/story.html"
+        templateUrl: "states/story.html"
       })  
       .state('form', {
         url: "/form",
