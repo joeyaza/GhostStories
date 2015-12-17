@@ -46,6 +46,10 @@ angular
         url: "/example",
         templateUrl: "states/example.html"
       })
+      .state('about', {
+        url: "/about",
+        templateUrl: "states/about.html"
+      })
       
     $urlRouterProvider.otherwise("/");
   }
