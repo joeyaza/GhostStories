@@ -135,6 +135,16 @@ margin-top: -80px;
   max-height: 550px;
 }
 
+#ghost2 {
+  margin-left: 20px;
+  z-index: 1;
+  float:center;
+  -webkit-filter: blur(10px);
+  max-width: 1400px;
+  max-height: 550px;
+  margin-top: -80px;
+}
+
 #ghost:hover {
   -webkit-filter: blur(0px);
 }
@@ -150,6 +160,7 @@ margin-top: -80px;
 
 .descrip {
   margin-top: -52px;
+  color:white;
 }
 
 .title {
