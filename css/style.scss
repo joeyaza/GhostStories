@@ -135,13 +135,22 @@ margin-top: -80px;
   max-height: 550px;
 }
 
-#ghost2 {
+.ghost2 {
   margin: 0 auto;
-  z-index: 1;
-  -webkit-filter: blur(10px);
+  z-index: -1;
+  -webkit-filter: blur(3px);
   max-width: 1400px;
   max-height: 550px;
-  margin-top: -80px;
+  margin-top: -30px;
+  margin-left: 533px;
+  height:400px;
+}
+
+.ghost3 {
+  font-size: 70px;
+  margin-left: 295px;
+  margin-top: 53px;
+  margin-bottom: 38px;
 }
 
 #ghost:hover {
@@ -160,6 +169,8 @@ margin-top: -80px;
 .descrip {
   margin-top: -52px;
   color:white;
+  z-index: 999;
+  margin-top: 60px;
 }
 
 .title {
