@@ -6,7 +6,7 @@ function tileView(){
   return {
     replace:true,
     restrict: 'E',
-    templateUrl: './partials/_tileView.html',
+    templateUrl: '/partials/tileView.html',
     scope: {
       tile: '='
     },
