@@ -6,7 +6,7 @@ function tileView(){
   return {
     replace:true,
     restrict: 'E',
-    templateUrl: '_tileView.html',
+    templateUrl: './_tileView.html',
     scope: {
       tile: '='
     },
