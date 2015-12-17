@@ -15,7 +15,6 @@ function MainController(TokenService, $http, $timeout, $auth, API, User, Story, 
   self.user = {};
 
   function handleLogin(res) {
-    console.log("rane is a mofo")
     // var token = res.token ? res.token : null;
     var token = res.data.token ? res.data.token : null;
     // Console.log our response from the API
