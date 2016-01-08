@@ -248,7 +248,8 @@ h2#login {
   text-align: center; }
 
 h4 {
-  color: white; }
+  color: white;
+  font-weight: bold; }
 
 .card {
   margin: 0 auto; }
