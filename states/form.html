@@ -6,18 +6,18 @@
   
       <div class="title form1">
       <label class ="form-label" for="title">Story Title.</label>
-      <input type="text" name="title" ng-model="main.story.title">
+      <input class="text-size" type="text" name="title" ng-model="main.story.title">
       </div>
       <div class="author form1">
       <label class ="form-label" for="author">Author.</label>
-      <input type="text" name="author" ng-model="main.story.author">
+      <input class="text-size" type="text" name="author" ng-model="main.story.author">
       </div>
 
       <br>
       <div ng-repeat="tile in main.story.tiles">
         <div class="form-text form1">
-        <label class ="form-label" for="text">Tile text.</label>
-        <textarea class="tile-text" type="text" name="text" ng-model="tile.text"></textarea>
+        <label class ="form-label" for="text">Tile text(maximum 350 words.)</label>
+        <textarea class="tile-text text-size" type="text" name="text" ng-model="tile.text"></textarea>
         </div>
         <br>
         <div class="form-image form1">

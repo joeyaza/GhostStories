@@ -101,19 +101,15 @@ p {
   max-height: 550px; }
 
 .ghost2 {
-  margin: 0 auto;
+  align: right;
+  float: right;
   z-index: -1;
-  -webkit-filter: blur(3px);
-  max-width: 1400px;
-  max-height: 550px;
-  margin-top: -30px;
-  margin-left: 533px;
   height: 400px; }
 
 .ghost3 {
   font-size: 70px;
-  margin-left: 295px;
-  margin-top: 53px;
+  text-align: center;
+  margin-top: 30px;
   margin-bottom: 38px; }
 
 #ghost:hover {
@@ -304,5 +300,17 @@ label {
 .delete-button {
   color: white;
   background-color: black; }
+
+.add {
+  color: grey; }
+
+.add:hover {
+  color: white; }
+
+.text-size {
+  font-size: 20px; }
+
+.float-left {
+  float: left; }
 
 /*# sourceMappingURL=style.css.map */
