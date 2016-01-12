@@ -316,4 +316,10 @@ label {
 .float-left {
   float: left; }
 
+.about-full {
+  background-image: url("http://mu-tihuang.com/walking_in_the_rain/images/rainMore.gif"); }
+
+.welcome {
+  font-size: 40px; }
+
 /*# sourceMappingURL=style.css.map */
