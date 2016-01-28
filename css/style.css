@@ -88,7 +88,6 @@ p {
   color: white; }
 
 .ghost:hover {
-  cursor: hand;
   cursor: pointer; }
 
 .slide1 {
@@ -106,7 +105,6 @@ p {
   max-height: 550px; }
 
 #ghost:hover {
-  cursor: hand;
   cursor: pointer; }
 
 .ghost2 {
@@ -179,7 +177,7 @@ p {
   width: 100%;
   height: 50px;
   margin-top: 20px;
-  opacity: 0.3;
+  opacity: 0.2;
   color: white; }
 
 .tab:hover {
