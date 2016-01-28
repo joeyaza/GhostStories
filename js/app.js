@@ -50,6 +50,10 @@ angular
         url: "/about",
         templateUrl: "states/about.html"
       })
+      .state('nav', {
+        url: "/nav",
+        templateUrl: "states/nav.html"
+      })
       
     $urlRouterProvider.otherwise("/");
   }

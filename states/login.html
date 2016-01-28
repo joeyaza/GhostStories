@@ -1,4 +1,13 @@
 <div class="login-full">
+<div class="tab">
+  <a ui-sref="home nav" ui-sref="nav" >Go_Home</a>
+  <a ng-show="main.loggedIn()" ui-sref="nav" ui-sref="form nav">Add_Story</a>
+  <a ng-show="main.loggedIn()" ui-sref="stories">Stories</a>
+  <a ng-hide="main.loggedIn()" ui-sref="nav"  ui-sref="signup">Sign_Up</a>
+  <a ng-hide="main.loggedIn()" ui-sref="nav"  ui-sref="login">Log_In</a>
+  <a ng-show="main.loggedIn()" ui-sref="nav" ng-click="main.disappear()">Log_Out</a> 
+  <a ui-sref="about">About</a>
+</div>
   <H2 class="horror">THE DREAD</H2>
   <div class="login">
     <div class="container">

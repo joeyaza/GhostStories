@@ -55,13 +55,17 @@
 
 <main ng-controller="MainController as main">
 
+<!-- 
+<div class="tab" ui-view>
+</div> -->
+
 <div class="partial" ui-view>
   <!-- displays partial here... -->
   </div>
 
 <!-- calling my states -->
 <!-- my nav bar -->
-  <div class="tab">
+<!--   <div class="tab">
     <a ui-sref="home">Go_Home</a>
     <a ng-show="main.loggedIn()" ui-sref="form">Add_Story</a>
     <a ng-show="main.loggedIn()" ui-sref="stories">Stories</a>
@@ -69,7 +73,7 @@
     <a ng-hide="main.loggedIn()" ui-sref="login">Log_In</a>
     <a ng-show="main.loggedIn()" ng-click="main.disappear()">Log_Out</a> 
     <a ui-sref="about">About</a>
-  </div>
+  </div> -->
 
 <!--   <div class="tableft">
     <a ui-sref="home"><img ng-src="http://downloadicons.net/sites/default/files/white-ghost-icons-43289.png"id="logo"/>
