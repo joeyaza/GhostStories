@@ -180,7 +180,7 @@ p {
   opacity: 0.3;
   color: white; }
 
-.tab2 {
+#tab2 {
   text-align: center;
   word-spacing: 25px;
   font-size: 20px;
@@ -197,7 +197,7 @@ p {
 .tab:hover {
   opacity: 1; }
 
-.tab2:hover {
+#tab2:hover {
   opacity: 1; }
 
 a:hover {
